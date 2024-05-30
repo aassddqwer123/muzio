@@ -24,9 +24,9 @@ module.exports = {
     nodes: [
         {
             name: process.env.NODE_NAME1 || "Node 1", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "lavalink.mlserv.xyz", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT1 || "32669"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD1 || "dsc.gg/sciencegear", // <==== PASSWORD/AUTH
+            host: process.env.NODE_HOST1 || "ether.lunarnodes.xyz", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT1 || "6969"), // <==== LAVALINK PORT
+            password: process.env.NODE_PASSWORD1 || "lunarnodes.xyz", // <==== PASSWORD/AUTH
             secure: parseBoolean(process.env.NODE_SECURE1 || "false"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS1 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         },
