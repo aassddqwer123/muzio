@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
     token: process.env.TOKEN || "BOTTOKEN", // <==== PASTE YOU TOKEN
-    prefix: process.env.PREFIX || "*", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
+    prefix: process.env.PREFIX || "f?", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
     color: process.env.EMBED_COLOR || "#c50632", // <==== YOU EMBEDED HEX COLOR
     owner: process.env.OWNER_ID || "788519608428134443", // <==== BOTS OWNER ID
     guildLogs: process.env.GUILD_LOGS || "1223798168467013634", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
@@ -42,7 +42,7 @@ module.exports = {
 
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://pfcjcvifchy:OuWaf9gAfv3MEIyk@cluster0.yaizyfk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", // <==== YOUR MONGODB LINK
-    supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
+    supportUrl: process.env.SUPPORT_URL || "https://discord.gg/mo-n", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
     imageUrl: process.env.IMAGE_URL || "https://i.imgur.com/HB32QqX.png", // <==== YOUR IMAGE LINK 
