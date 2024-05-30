@@ -46,7 +46,7 @@ module.exports = {
             .setDescription(`👋🏻 Hey ${interaction.member} I am **${client.user.username}** A complete Music Bot for your server Providing you the best quality music`)
             .addFields({
                 name: `Links`,
-                value: `[**Moon Music**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) \n [**Support Server**](${supportUrl})`
+                value: `[**Moon Music**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) \n[**Support Server**](${supportUrl})`
             })
             .addFields({
                 name: `Command Categories`,
