@@ -32,8 +32,8 @@ module.exports = {
         await interaction.deferReply({ ephemeral: false });
 
         const row2 = new ActionRowBuilder()
-            .addComponents(new ButtonBuilder().setLabel("Moon Server").setURL(supportUrl).setStyle(ButtonStyle.Link));
-            .addComponents(new ButtonBuilder().setLabel("Invite Moon Music Bot").setURL(inviteUrl).setStyle(ButtonStyle.Link))
+            .addComponents(new ButtonBuilder().setLabel("Moon Server").setURL(supportUrl).setStyle(ButtonStyle.Link))
+            .addComponents(new ButtonBuilder().setLabel("Invite Moon Music Bot").setURL(inviteUrl).setStyle(ButtonStyle.Link));
 
         const categories = readdirSync("./src/commands/Slash/");
 
